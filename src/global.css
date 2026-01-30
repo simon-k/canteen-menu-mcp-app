@@ -1,0 +1,42 @@
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font-sans, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji');
+  font-size: var(--font-text-md-size, 1rem);
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--font-text-md-line-height, 1.5);
+  color: var(--color-text-primary, light-dark(#1f2937, #f3f4f6));
+  background: var(--color-background-primary, light-dark(#ffffff, #111827));
+}
+
+h1 {
+  font-size: var(--font-heading-xl-size, 1.5rem);
+  line-height: var(--font-heading-xl-line-height, 1.25);
+  font-weight: var(--font-weight-bold, 700);
+}
+
+h2 {
+  font-size: var(--font-heading-lg-size, 1.25rem);
+  line-height: var(--font-heading-lg-line-height, 1.3);
+  font-weight: var(--font-weight-semibold, 600);
+}
+
+h3 {
+  font-size: var(--font-heading-md-size, 1rem);
+  line-height: var(--font-heading-md-line-height, 1.4);
+  font-weight: var(--font-weight-medium, 500);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
