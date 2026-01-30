@@ -41,6 +41,30 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 }
 ```
 
+## Visual Studio Code
+
+Add to `mcp.json`:
+
+```json
+{
+	"servers": {
+		"MCP-CanteenMenu": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"tsx",
+				"/path/to/canteen-menu-server/main.ts",
+				"--stdio"
+			]
+		}
+	},
+	"inputs": []
+}
+```
+
+![VS Code MCP App](doc/vscode.png)
+
+
 ## Development
 
 ```bash
