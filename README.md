@@ -2,6 +2,8 @@
 
 An MCP App that displays today's canteen menu with interactive ordering and reaction features.
 
+_NOTE: This is a DEMO and not feature-complete. It's purpose is to show what you can do with MCP Apps._
+
 ## Features
 
 - **Daily menu display** - Shows dish of the day and green dish
